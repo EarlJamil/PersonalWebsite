@@ -1,0 +1,25 @@
+h1 {
+  border: 2px solid blue;
+}
+
+div {
+  display: inline-block;
+  border: 2px solid yellow;
+  background-color: rgb(28, 41, 59);
+  color: white;
+  width: 200px;
+  height: 200px;
+}
+
+span {
+  display: inline-block;
+  border: 2px dotted purple;
+  background-color: pink;
+  color: black;
+  width: 200px;
+  height: 200px;
+}
+
+p {
+  display: none;
+}
