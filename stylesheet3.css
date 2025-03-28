@@ -1,0 +1,182 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: sticky; 
+  top: 0; 
+  width: 100%; 
+  height: 50px;
+  margin: 0; 
+  background-color: #133A40;
+  text-align: center;
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+  font-family: 'Libre Baskerville';
+  z-index: 1000;
+}
+
+ul {
+  text-align: center;
+  padding: 0; 
+  margin: 0; 
+  display: flex; 
+}
+
+li {
+  background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
+  list-style-type: none; 
+  margin: 0 0.5rem; 
+  border-radius: 10px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Libre Baskerville';
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+  background-color: #357266;
+  background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+}
+
+nav a {
+  background-color: #0e3b43;
+  color: #F5F8DE;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+nav a:focus {
+  background-color: #357266;
+  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  color: black;
+  text-decoration: underline;
+}
+
+nav a:hover {
+  background-color: #357266;
+  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  color: #F5F8DE;
+  border-radius: 10px;
+
+}
+
+#flower {
+  display: inline-block;
+  padding-left: 0;
+  position: fixed;
+  bottom: -30px;
+  right: -20px;
+  width: 350px;
+}
+
+#elem2 {
+  display: inline-block;
+  padding-left: 0;
+  position: fixed;
+  bottom: -110px;
+  left: -110px;
+  width: 450px;
+}
+
+#elem1 {
+  display: inline-block;
+  padding-left: 0;
+  position: fixed;
+  top: -100px;
+  right: -110px;
+  width: 400px;
+}
+
+#dots {
+  display: inline-block;
+  padding-left: 0;
+  position: fixed;
+  top: -50px;
+  left: 10x;
+  width: 400px;
+}
+
+#circle {
+  display: inline-block;
+  padding-left: 0;
+  position: fixed;
+  top: 150px;
+  right: 280px;
+  width: 500px;
+  opacity: 0.95;
+}
+
+#circle img {
+  border-radius: 20px; 
+  transition: all 0.3s ease-in-out; 
+}
+
+#circle img:hover {
+  opacity: 1.0;
+  transform: scale(1.05); 
+}
+
+.video {
+  width: 440px;
+  height: 220px;
+  display: inline-block;
+  padding-left: 0;
+  position: fixed;
+  bottom: 130px;
+  left: 270px;
+  border: 5px solid #F5F8DE;
+  border-radius: 10px;
+}
+
+.video iframe { 
+  width: 100%; 
+  height: 100%; 
+  border: none; 
+  margin: 0; 
+  padding: 0; 
+  border-radius: 10px;
+}
+
+.intro {
+  display: inline-block;
+  position: fixed;
+  bottom: 320px;
+  left: 240px;
+  padding: 2rem;
+  color:#F5F8DE;
+  font-family: 'Libre Baskerville';
+}
+
+.intro h2 {
+  margin: 0.5rem 0;
+  text-shadow: 1px 2px 10px #312509;
+}
+
+.intro hr {
+  width: 100%;
+  margin: 1rem auto;
+  border: 1px solid #F5F8DE;
+  color: #F5F8DE;
+}
+
+.intro h3 {
+  color:#f5f8de;
+  text-shadow: 1px 2px 8px #312509;
+  font-family: Poppins;
+}
+
+a.active1 {
+  border-bottom: 2px solid #ffffff; 
+}

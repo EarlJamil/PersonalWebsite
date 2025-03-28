@@ -1,0 +1,248 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: sticky; 
+  top: 0; 
+  width: 100%; 
+  height: 50px;
+  margin: 0; 
+  background-color: #0e3b43;
+  text-align: center;
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+  font-family: 'Libre Baskerville';
+  z-index: 1000;
+}
+
+.navUl {
+  text-align: center;
+  padding: 0; 
+  margin: 0; 
+  display: flex;
+  letter-spacing: 0px;
+}
+
+li {
+  margin: 0 0.5rem; 
+  border-radius: 10px;
+  color: #F5F8DE;
+  text-shadow: 2px 1px 1px #312509;
+  letter-spacing: 1px;
+}
+
+#liPad {
+  padding: 0px;
+  list-style-type: none;
+  letter-spacing: 0px;
+  text-shadow: none;
+
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Libre Baskerville';
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+  background-color: #357266;
+  background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+}
+
+nav a {
+  background-color: #0e3b43;  
+  color: #F5F8DE;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  display: block;
+  padding: 1rem 1rem;
+}
+
+nav a:focus {
+  background-color: #357266;
+  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  color: black;
+  text-decoration: underline;
+}
+
+nav a:hover {
+  background-color: #357266;
+  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  color: #F5F8DE;
+  border-radius: 10px;
+}
+
+body {
+  background-color: #357266;
+  background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+  font-family: 'Poppins';
+}
+
+li {
+  padding: 8px;
+  font-family: 'Libre Baskerville';
+  color: #F5F8DE;
+  background-color: none;
+}
+
+ul::marker, ol::marker {
+  color: #F5F8DE; 
+  background-color: none;
+}
+hr.inside {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Libre Baskerville';
+  padding: 20px 10px 10px;
+  color: #F5F8DE;
+  text-shadow: 4px 2px 1px #312509;
+  text-decoration: underline overline;
+  text-underline-offset: 10px;
+  font-size: 41px;
+  margin: 50px 80px;
+}
+
+h2 {
+  font-family: 'Libre Baskerville';
+  padding-bottom: 1px;
+  color: #F5F8DE;
+  text-shadow: 3px 2px 3px #312509;
+  font-size: 25px;
+  text-align: center;
+}
+
+hr {
+  width: 87%;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  box-shadow: 3px 2px 3px #312509;
+  background-color: #f5f8de;
+  background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
+}
+
+ol {
+  color: #F5F8DE;
+}
+
+p {
+  font-family: 'Poppins';
+  text-shadow: 2px 1px 1px #312509;
+  font-size: 16px;
+
+}
+
+li.header {
+  font-size: 25px;
+  padding-top: 20px;
+  font-weight: bold;
+  font-family: 'Libre Baskerville';
+}
+
+li.educ {
+  font-size: 20px;
+  font-weight: bold;
+  color: #F5F8DE;
+}
+
+li.skills {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+li.it {
+  font-weight: bold;
+}
+
+ul.a {
+  list-style-type: disc;
+  color: #F5F8DE;
+}
+
+ul.b {
+  list-style-type: square;
+  color: #F5F8DE;
+}
+
+p.educ {
+  margin: -5px;
+  font-family: 'Poppins';
+}
+
+p.skills {
+  margin: -5px;
+  font-family: 'Poppins';
+}
+
+.container1 {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center; 
+}
+
+#image {
+  width: 50px; 
+  margin-top: 0px; 
+  margin-bottom: 20px; 
+  border-radius: 10px;
+  margin-right: 80px;
+  box-shadow: 3px 2px 3px #312509;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+a.active1 {
+  border-bottom: 2px solid #ffffff; 
+}
+
+div.container {
+  display: flex; 
+  align-items: center; 
+  text-align: justify;
+  font-family: 'Poppins';
+  padding: 20px 40px 30px;
+  font-size: 15px;
+  line-height: 28px;
+  color: #F5F8DE;
+  text-shadow: 2px 1px 3px #312509;
+  margin: 50px 80px;
+  box-shadow: 10px 10px 10px #312509;
+  background-color: #357266;
+  border-radius: 10px;
+  gap: 15px; 
+}
+
+#pic {
+  width: 200px;
+  height: 200px;
+  margin-left: 30px;
+}
+
+.title-container {
+  width: 80%; 
+  margin-left: 60px;
+  margin-top: -50px; 
+}
+
+#back1 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,458 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: sticky; 
+  top: 0; 
+  width: 100%; 
+  height: 50px;
+  margin: 0; 
+  background-color: #0e3b43;
+  text-align: center;
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+  font-family: 'Libre Baskerville';
+  z-index: 1000;
+}
+
+ul {
+  text-align: center;
+  padding: 0; 
+  margin: 0; 
+  display: flex; 
+}
+
+li {
+  list-style-type: none; 
+  margin: 0 0.5rem; 
+  border-radius: 10px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Libre Baskerville';
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+  background-color: #357266;
+  background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+}
+
+nav a {
+  background-color: #0e3b43;
+  color: #F5F8DE;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+nav a:focus {
+  background-color: #357266;
+  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  color: black;
+  text-decoration: underline;
+}
+
+nav a:hover {
+  background-color: #357266;
+  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  color: #F5F8DE;
+  border-radius: 10px;
+
+}
+a.active1 {
+  border-bottom: 2px solid #ffffff; 
+}
+
+blockquote {
+  text-align: justify;
+  font-family: Poppins;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-bottom: 1px;
+  font-size: 15px;
+  line-height: 28px;
+  color: #F5F8DE;
+  text-shadow: 3px 1px 7px #312509;
+  margin:50px 80px;
+  padding: 20px 40px 30px;
+  box-shadow: 10px 10px 10px #312509;
+  background-color: #357266;
+  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: 'Libre Baskerville';
+  padding: 20px 10px 10px;
+  color: #F5F8DE;
+  text-shadow: 2px 1px 2px #312509;
+  text-decoration: underline overline;
+  text-underline-offset: 10px;
+  font-size: 41px;
+  margin:50px 80px;
+  padding: 20px 40px 30px;
+  box-shadow: 10px 10px 10px #312509;
+  background-color: #357266;
+  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  border-radius: 10px;
+
+}
+
+#bg {
+  width: 1350px;
+  height: 600px;
+  padding-left: 80px;
+}
+
+#left-curtain {
+  width: 1350px;
+  z-index: 1;
+  height: 600px;
+  padding-top: -120px;
+  padding-left: 80px;
+}
+
+#divider {
+  width: 25px;
+  padding-bottom: 5px;
+  padding-right: 10%;
+  padding-left: 20%;
+  border-radius: 10px;
+  box-shadow: 3px 2px 15px #312509;
+  background-color: #f5f8de;
+  background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
+  box-shadow: 0 0 10px #f5f8de, 0 0 20px #f5f8de, 0 0 30px #ffeb3b; 
+  margin-bottom: 20px;
+  margin-left: 77px;
+  margin-right: 18px;
+}
+
+#divider1 {
+  width: 25px;
+  padding-bottom: 5px;
+  padding-right: 10%;
+  padding-left: 20%;
+  border-radius: 10px;
+  box-shadow: 3px 2px 15px #312509;
+  background-color: #f5f8de;
+  background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
+  box-shadow: 0 0 10px #f5f8de, 0 0 20px #f5f8de, 0 0 30px #ffeb3b; 
+  margin-bottom: 20px;
+  margin-left: 15px;
+  margin-right: 30px;
+}
+
+#film {
+  align-items: center;
+  width: 350px;
+  height: 150px;
+  padding: 0%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease, filter 0.3s ease, transform 0.3s ease;
+}
+
+#film:hover {
+  box-shadow: 0 0 10px #f5f8de, 0 0 20px #f5f8de, 0 0 30px #ffeb3b; 
+  filter: brightness(1.2); 
+  transform: scale(1.05); 
+}
+
+#icon {
+  color: #f5f8de; 
+  padding-right: 10px;
+}
+
+#tv {
+  align-items: center;
+  width: 350px;
+  height: 200px;
+  padding: 0%;
+  margin: 0px;
+}
+
+#bg {
+  position: relative; 
+  z-index: 1; 
+  width: 1350px;
+  height: 600px;
+  padding-left: 82px;
+  border-radius: 20px;
+  border-color: #ffeb3b;
+}
+
+#left-curtain {
+  position: absolute;
+  top: 66; 
+  left: -2px; 
+  width: 1350px;
+  height: 600px;
+  z-index: 1; 
+  border-radius: 6%;
+}
+
+#right-curtain {
+  position: absolute;
+  top: 60; 
+  right: 90px;
+  width: 1000px;
+  height: 600px;
+  z-index: 1; 
+  border-radius: 10px;
+}
+
+#video1 {
+  position: absolute; 
+  top: 720px; 
+  left: 400px; 
+  z-index: 2; 
+}
+
+#film1 {
+  position: absolute;
+  width: 700px;
+  height: 400px;
+  align-items: center;
+  border-radius: 10px;
+  border-color: #F5F8DE;
+  border-width: 4px;
+}
+
+#video2 {
+  position: absolute;
+  top: 1600px; 
+  left: 400px; 
+  z-index: 2; 
+}
+
+#film2 {
+  position: absolute;
+  width: 700px;
+  height: 400px;
+  align-items: center;
+  border-radius: 10px;
+  border-color: #F5F8DE;
+  border-width: 4px;
+}
+
+#video3 {
+  position: absolute;
+  top: 2700px; 
+  left: 400px; 
+  z-index: 2; 
+}
+
+#film3 {
+  position: absolute;
+  width: 700px;
+  height: 400px;
+  align-items: center;
+  border-radius: 10px;
+  border-color: #F5F8DE;
+  border-width: 4px;
+}
+
+#video4 {
+  position: absolute;
+  top: 3630px; 
+  left: 400px; 
+  z-index: 2; 
+}
+
+#film4 {
+  position: absolute;
+  width: 700px;
+  height: 400px;
+  align-items: center;
+  border-radius: 10px;
+  border-color: #F5F8DE;
+  border-width: 4px;
+}
+
+h2 {
+  font-family: 'Libre Baskerville';
+  padding-left: -10px;
+  margin-right: 110px;
+  color: #F5F8DE;
+  text-shadow: 2px 1px 2px #312509;
+  text-underline-offset: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+#break {
+  width: 89%;
+  padding-bottom: 5px;
+  margin-left: 78px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 3px 2px 15px #312509;
+  background-color: #f5f8de;
+  background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
+  box-shadow: 0 0 10px #f5f8de, 0 0 20px #f5f8de, 0 0 30px #ffeb3b; 
+}
+
+.description {
+  font-family: 'Libre Baskerville';
+  font-size: 17px;
+  padding: 20px 10px 10px;
+  color: #F5F8DE;
+  text-shadow: 2px 1px 2px #312509;
+  text-underline-offset: 10px;
+  margin:50px 90px;
+  padding: 20px 30px 29px;
+  box-shadow: 10px 10px 10px #312509;
+  background-color: #357266;
+  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  border-radius: 10px;
+}
+
+
+.container2 {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  margin-bottom: 10px;
+}
+#image {
+  width: 50px;
+  border-radius: 10px;
+  box-shadow: 3px 2px 15px #312509;
+}
+
+.nav-buttons {
+  text-align: center;
+  margin: 20px 0px;
+  font-family: 'Libre Baskerville';
+  margin:50px 80px;
+  padding: 20px 40px 30px;
+  box-shadow: 10px 10px 10px #312509;
+  background-color: #357266;
+  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  border-radius: 10px;
+}
+
+
+.nav-buttons a {
+  color: #F5F8DE;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-left: 20px;
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1px 2px 2px #312509;
+}
+
+.nav-buttons a:visited {
+  color: tan;
+  text-decoration: underline;
+  text-shadow: 1px 2px 2px #312509;
+}
+.nav-buttons a:focus {
+  background-color: #357266;
+  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  outline: none;
+}
+
+.nav-buttons a:hover {
+  background-color: #357266;
+  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  color: #312509;
+}
+
+.nav-buttons a:active {
+  text-decoration: underline;
+  color: #F5F8DE; 
+}
+
+.border {
+  margin-left: -10px;
+  margin-right: 800px;
+  display: inline-block;
+  vertical-align: top; 
+  margin: 10px; 
+  width: 45%; 
+  border-bottom: 1px #312509;
+  border-left: 3px #312509;
+  border-radius: 10px;
+}
+
+
+
+.title {
+  background-color: #133A40;
+  color: #F5F8DE; 
+  text-align: center; 
+  padding: 5px;
+  padding-bottom: 10px; 
+  margin: -10px -10px 5px -10px; 
+  border-radius: 0 0 0 0; 
+  border: 1px #312509; 
+  font-size: 26px; 
+  font-weight: bold;
+  font-family: 'Libre Baskerville';
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  border-bottom: 100px #312509;
+  z-index: 1000;
+}
+
+
+.bucket {
+  text-align: left;
+  font-size: 12px; 
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: block;
+}
+
+.lists {
+  list-style-type: disc;
+  color: #F5F8DE;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-family: 'Poppins';
+  margin-left: 30px;
+}
+
+.container {
+  width: 550px; 
+  height: 300px; 
+  border: 3px solid #312509;
+  border-radius: 3px; 
+  padding: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+  background-color: #357266;
+  background-image: url("https://www.transparenttextures.com/patterns/debut-light.png");
+}
+
+.container1 {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center; 
+}
+
+#image {
+  width: 50px; 
+  margin-top: 0px; 
+  margin-bottom: 20px; 
+  border-radius: 10px;
+  margin-right: 80px;
+  box-shadow: 3px 2px 3px #312509;
+}
